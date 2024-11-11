@@ -1,0 +1,338 @@
+.main {
+  background-color: black;
+  padding: 2rem;
+}
+
+.card {
+  padding-left: 5rem;
+  gap: 6rem;
+  display: flex;
+  padding: 0rem 1rem;
+
+}
+
+.right {
+  width: 100%;
+  color: white;
+  padding-right: 8rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.rhaiding {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  margin-bottom: 1rem;
+}
+
+.rdetail {
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  /* text-align: justify; */
+  max-width: 350px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+}
+
+
+.left {
+  width: 100%;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.haiding {
+  color: #F28AEE;
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  margin-bottom: 4rem;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+  height: 90%;
+  margin-left: 3rem;
+  /* margin-top: 2rem; */
+  padding-left: 4rem;
+}
+
+.imgBtn {
+  background-color: #fff;
+  width: 40%;
+  height: 90%;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.img3 {
+  max-width: 100%;
+  object-fit: contain;
+  height: 250px;
+  width: 250px;
+}
+
+.image3 {
+  height: 250px;
+  width: 250px;
+}
+
+.img2 {
+  max-width: 100%;
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.image2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  margin-top: -12%;
+}
+
+.img1 {
+  max-width: 100%;
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.image1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15%;
+}
+
+
+.lower {
+  display: flex;
+  align-items: left;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 10%;
+}
+
+.lower p:hover {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+.directoapp {
+  color: white;
+}
+
+.linkItems {
+  color: white;
+}
+
+.linktree {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  justify-content: center;
+  /* padding-left: 7%; */
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+  gap: 2rem;
+  /* background-color: red; */
+
+}
+
+.link {
+  width: 30px;
+  height: 30px;
+}
+
+.twitter {
+  width: 25px;
+  height: 25px;
+}
+
+.nlogo {
+  width: 55px;
+  height: 55px;
+  padding-left: 6px;
+}
+
+
+@media (min-width: 757px) and (max-width:1444px) {
+  .left {
+    padding-right: 0rem;
+  }
+
+  .haiding {
+    color: #F28AEE;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-left: 3rem;
+    letter-spacing: 0.6px;
+    margin-bottom: 4rem;
+  }
+
+ 
+
+}
+
+@media(max-width:756px) {
+
+  .main,
+  .card,
+  .right,
+  .left,
+  .rhaiding,
+  .rdetail,
+  .haiding,
+  .rdetail,
+  .action {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .action {
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image2,
+  .img2 {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: -10%;
+  }
+
+  .image3,
+  .img3 {
+    height: 240px;
+    width: 240px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    padding: 2rem 1rem;
+  }
+
+  .haiding {
+    font-size: 2.2rem;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .left {
+    display: block;
+    gap: 0;
+  }
+
+  .linktree {
+    padding-top: 5%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 0rem;
+  }
+
+  .nlogo{
+    width:34px;
+    height: 34px;
+    padding-left: 0;
+    margin-right: -6px;
+  }
+
+  .link{
+    width:20px;
+    height: 20px;
+  }
+
+  .twitter{
+    width:15px;
+    height: 15px;
+
+  }
+
+  .link {
+    margin-left: 0;
+  }
+
+  .image2 {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .img2 {
+    height: 80px;
+    width: 80px;
+    margin-left: 40%;
+    margin-top: -10%;
+  }
+
+  .image3 {
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+
+  .rhaiding {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .rdetail {
+    font-size: 1rem;
+    font-weight: 400;
+    /* text-align: justify; */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+
+  .lower {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+}

@@ -1,0 +1,141 @@
+.card {
+  background-color: #000000;
+  padding: 3rem;
+  color: white;
+  display: flex;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+  padding-left: 5rem;
+  flex-basis: 50.33%;
+}
+
+.haiding {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.6px;
+}
+
+.detail {
+  max-width: 500px;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem 2rem; */
+  align-items: flex-start;
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.rHiding {
+  color: #f28aee;
+  font-size: 3rem;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+}
+.img2 {
+  max-width: 100%;
+  height: 450px;
+  width: 660px;
+}
+
+.rDetail {
+  font-size: 2rem;
+  width: 100%;
+  /* align-self:center;
+  text-align: center; */
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.action {
+  width: 100%;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.action1 {
+  background-color: #f28aee;
+  padding: 1rem;
+  display: block;
+  width: 240px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.action1:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 756px) {
+  .card,
+  .action,
+  .left,
+  .right,
+  .rDetail,
+  .rHiding,
+  .haiding,
+  .detail {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+  .card {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .haiding {
+    font-size: 1.8rem;
+  }
+
+  .img2 {
+    max-width: 100%;
+    height: 200px;
+    width: 320px;
+    align-self: center;
+  }
+  .detail {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
+
+  .rHiding{
+    font-size: 2rem;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .rDetail{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .action1{
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+}

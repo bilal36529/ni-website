@@ -1,0 +1,242 @@
+.card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0rem;
+    background-color: #000000;
+    place-items: center;
+    padding: 0rem 1rem;
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+    /* margin-left: 2rem;
+      margin-right: 2rem; */
+  }
+  
+  .left,
+  .right {
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .inner {
+    display: flex;
+    align-items: center;
+    /* gap: 2rem; */
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7rem;
+  }
+  
+  .haiding {
+    color: white;
+    font-weight: 600;
+    font-size: 2.8rem;
+    /* font-size: 4vw; */
+    letter-spacing: 0.3px;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .detail {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 100 !important;
+  }
+  
+  .detail2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  .action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  
+  }
+  
+  .imgBtn {
+    width: 30%;
+    height: 10%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  .action1,
+  .action2:hover {
+    cursor: pointer;
+  }
+  
+  .image1 {
+    height: 190px;
+    width: 190px;
+  }
+  
+  .img1 {
+    max-width: 100%;
+    object-fit: contain;
+    height: 220px;
+    width: 220px;
+  }
+  
+  .img3 {
+    max-width: 100%;
+    object-fit: contain;
+    height: 240px;
+    width: 240px;
+  }
+  
+  .image3 {
+    height: 240px;
+    width: 240px;
+  
+  }
+  
+  .img2 {
+    max-width: 100%;
+    object-fit: contain;
+    height: 440px;
+    width: 440px;
+  }
+  
+  .image2 {
+    height: 440px;
+    width: 440px;
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1300px) {
+    .haiding {
+      color: white;
+      font-weight: 600;
+      font-size: 2.4rem;
+      letter-spacing: 0.3px;
+      margin-bottom: 2rem;
+    }
+    
+    .detail {
+      color: white;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      font-size: 1.3rem;
+      font-weight: 100 !important;
+    }
+  
+  
+    
+  }
+  
+  
+  
+  
+  @media(max-width:756px) {
+    .card {
+      grid-template-columns: 1fr;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+    }
+  
+    .image1,
+    .image2,
+    .image3 {
+      height: 300px;
+      width: 300px;
+    }
+  
+    .img1,
+    .img2,
+    .img3 {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .image3,
+    .img3 {
+      height: 120px;
+      width: 120px;
+    }
+  
+    .left {
+  
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      padding: 2rem 1rem;
+      gap: 2rem;
+  
+    }
+  
+    .right {
+  
+      margin: 0;
+      padding: 0;
+      padding: 0rem 1rem;
+      padding-bottom: 2rem;
+    }
+  
+    .action {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      gap: 0;
+      gap: 1rem;
+    }
+  
+    .action1,
+    .action2 {
+      width: 100%;
+      margin: 0;
+      padding: 0.8rem;
+      font-size: 0.8rem;
+  
+    }
+  
+    .haiding {
+      font-size: 1.8rem;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .detail {
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  
+    .detail2 {
+      font-size: 0.5rem;
+      margin: 0;
+      padding: 0;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  
+    .action {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+  
+    .imgBtn {
+      width: 40%;
+      height: 5%;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }

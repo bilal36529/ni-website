@@ -1,0 +1,55 @@
+
+.main{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top:4rem;
+    margin-bottom: 4rem;
+}
+* {
+    color: #FFF;
+}
+.h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #f28aee;
+    line-height: 1.2;
+    text-align: start;
+}
+
+.h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: #f28aee;
+    line-height: 1.2;
+    text-align: start;
+}
+.h6{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: #f28aee;
+    line-height: 1.2;
+    text-align: start;
+}
+.nestedList{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.p{
+    margin-top: 1rem;
+}
+
+@media(max-width:756px){
+    .main{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top:4rem;
+        margin-bottom: 4rem;
+    }
+}
